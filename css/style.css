@@ -31,7 +31,6 @@ section {
 
 /* <!-- /////////////////////// header_ ///////////////////////// --> */
 
-
 .header_continer_ {
     width: 90%;
     margin: auto;
@@ -146,8 +145,6 @@ section {
 .main_continer_body_ br {
     margin: 2vw 0;
 }
-
-
 
 /* <!-- /////////////////////// section_1_ ///////////////////////// --> */
 
@@ -410,8 +407,6 @@ section {
     margin: 0 auto;
 
     z-index: 9;
-    
-    
 }
 
 .section_5_continer_ h2 {
@@ -442,7 +437,6 @@ section {
     font-size: 1.2rem;
     color: #6c757d;
 }
-
 
 /* <!-- /////////////////////// footer ///////////////////////// --> */
 
