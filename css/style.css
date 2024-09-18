@@ -456,6 +456,10 @@ section {
     max-width: 100px; 
 }
 
+.footer_container_p {
+    margin: 3vw 0;
+}
+
 .footer .social-icons a {
     color: #ffffff;
     margin-right: 10px;
