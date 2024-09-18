@@ -1,0 +1,503 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+}
+
+.btn_a {
+    padding: 1vw 4vw;
+    border: 0.3vw;
+    background-color: black;
+    color: white;
+    font-size: 2vw;
+
+    text-decoration: none;
+}
+
+.btn_a:hover {
+    background-color: #444;
+}
+
+section {
+    position: relative;
+    margin: 15vw 0;
+
+}
+
+/* <!-- /////////////////////// header_ ///////////////////////// --> */
+
+
+.header_continer_ {
+    width: 90%;
+    margin: auto;
+}
+
+.header_continer_ a {
+    font-size: 1.4vw;
+}
+
+.logo img{
+    width: 15vw;
+}
+
+/* <!-- /////////////////////// main_ ///////////////////////// --> */
+
+.main_continer_ {
+    width: 90%;
+    margin: 5vw auto;
+    position: relative;
+}
+
+.main_continer_img_ {
+    position: relative;
+    
+    z-index: 9;
+}
+
+.main_continer_img_1, 
+.main_continer_img_2, 
+.main_continer_img_rectangle,
+.main_continer_img_arrow {
+    position: absolute;
+
+    z-index: 9;
+}
+
+.main_continer_img_1 {
+    height: 24vw;
+
+    right: 0;
+    width: 24vw;
+}
+
+.main_continer_img_2 {
+    height: 20vw;
+    right: 4vw;
+    top: 26vw;
+    width: 32vw;
+}
+
+.main_continer_img_rectangle  {
+    border: solid black 2px;
+    width: 10vw;
+    height: 9vw;
+
+    right: 27.5vw;
+    top: 24.5vw;
+
+    border-radius: 0.2vw;
+
+    z-index: 6;
+}
+
+.main_continer_img_arrow {
+    width: 7vw;
+    height: 7vw;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 38.97vw;
+    transform: rotate(90deg);
+    font-size: 5vw; 
+
+    border: none;
+}
+
+.main_continer_img_arrow p {
+    height: 55px;
+    transform: translateY(-0.7vw);
+}
+
+
+.main_continer_body_h2 {
+    font-size: 9vw;
+}
+
+.main_continer_body_p {
+    width: 52vw;
+    font-size: 1.8vw;
+}
+
+.main_continer_body_a_ {
+    margin: 5vw 0;
+}
+
+.main_continer_body_ppp {
+    width: 55vw;
+    text-align: center;
+}
+
+.main_continer_body_ppp h4 {
+    font-size: 5vw;
+}
+
+.main_continer_body_ppp p {
+    font-size: 1.6vw;
+}
+
+.main_continer_body_ br {
+    margin: 2vw 0;
+}
+
+
+
+/* <!-- /////////////////////// section_1_ ///////////////////////// --> */
+
+.section_1_container_ {
+    width: 90%;
+    margin: auto;
+}
+
+.services-dash {
+    display: inline-block;
+    height: .4vw;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.services-dash-center {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.services-title {
+    font-size: 4vw;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+  
+.service-box {
+    padding-top: 2vw;
+    background-color: #fff;
+}
+  
+.service-icon {
+    width: 3vw;
+    margin-right: 1vw;
+}
+  
+.service-text h3 {
+    font-size: 2vw;
+}
+  
+.service-text p {
+    font-size: 1.52vw;
+    color: #555;
+}
+  
+.service-text {
+    max-width: 25vw;
+}
+
+/* <!-- /////////////////////// section_2_ ///////////////////////// --> */
+
+.section_2_continer_ {
+    width: 90%;
+    margin: auto;
+}
+
+.section_2_continer_text_h2 {
+    font-weight: bold;
+    font-size: 3.9vw;
+}
+
+.section_2_continer_text_p {
+    font-size: 1.55vw;
+    margin-bottom: 2vw;
+}
+
+.design-image {
+    border-radius: 0.3vw;
+    background-image: url(../images/Mask\ group.png);
+    background-size: 100% 100%;
+}
+
+.accordion_item {
+    border-bottom: solid 0.1vw rgb(218, 218, 218);
+}
+
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 0;
+    font-size: 1.5vw;
+}
+
+.accordion-header::after {
+    content: '+';
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+/* <!-- /////////////////////// section_3_ ///////////////////////// --> */
+
+.section_3_continer_ {
+    width: 90%;
+    margin: auto;
+}
+
+.section_3_continer_text_h2 {
+    font-size: 3.7vw;
+    margin-bottom: 3vw;
+}
+
+.section_3_icon {
+    background-color: black;
+    border-radius: 50%;
+    width: 5vw;
+}
+
+.section_3_continer_ h3 {
+    font-size: 2vw;
+    margin-top: 1.2vw;
+}
+
+.section_3_continer_ p {
+    font-size: 1.58vw;
+}
+
+.section_3_continer_ span {
+    display: inline-block;
+
+    width: 1px;
+    height: 45%;
+    background-color: rgb(218, 218, 218);
+
+    transform: translateX(2.35vw) translateY(1.5vw);
+}
+
+/* <!-- /////////////////////// section_4_ ///////////////////////// --> */
+
+.section_4_continer_ {
+    width: 90%;
+    margin:0 auto 50vw auto;
+    padding-bottom: 5%;
+    position: relative;
+}
+
+.section_4_continer_header_img {
+    background-image: url("../images/Mask group (1).png");
+    background-size: 100% 100%;
+    height: 40vw;
+}
+
+.section_4_continer_header_ h2 {
+    font-size: 3.5vw;
+}
+
+.section_4_continer_body_ {
+    position: absolute;
+    top: 30%;
+    left: 17.5%;
+}
+
+.quote-mark {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 6vw;
+
+    margin: 0;
+}
+
+.section_4_continer_body_1 {
+    padding: 8%;
+}
+
+.section_4_continer_body_ p {
+    padding: 0 0 1vw 0;
+    font-size: 1.5vw;
+}
+
+.section_4_continer_body_foot_ {
+    padding-bottom: 4vw;
+}
+
+.section_4_continer_body_foot_ img {
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+
+    margin-right: 1vw;
+}
+
+.section_4_continer_body_foot_ h4 {
+    font-size: 1.8vw;
+}
+
+.section_4_continer_body_foot_ p {
+    padding: 0;
+}
+
+.section_4_continer_button_ {
+    position: absolute;
+    left: -1.2%;
+    width: 10vw;
+}
+
+.section_4_continer_button_ {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    display: flex;
+    gap: 1vw; 
+}
+
+.section_4_continer_button_ button {
+    width: 6vw;
+    height: 3vw;
+    border: none;
+    border-radius: 0.3vw;
+    color: #464646;
+    font-size: 1.2vw;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+}
+
+.section_4_continer_button_ button:hover {
+    background-color: #666;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .section_4_continer_button_ {
+        gap: 2vw;
+    }
+    .section_4_continer_button_ button {
+        width: 10vw;
+        height: 4vw;
+        font-size: 1.5vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .section_4_continer_button_ button {
+        width: 12vw;
+        height: 5vw;
+        font-size: 2vw;
+    }
+}
+
+@media (max-width: 350px) {
+    .section_4_continer_button_ button {
+        width: 15vw;
+        height: 6vw;
+        font-size: 2.5vw;
+    }
+}
+
+/* <!-- /////////////////////// section_5_ ///////////////////////// --> */
+
+.section_5_continer_ {
+    width: 50%;
+
+    position: absolute;
+
+    top: -30vw;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0 auto;
+
+    z-index: 9;
+    
+    
+}
+
+.section_5_continer_ h2 {
+    font-size: 3.8vw;
+}
+
+.section_5_continer_ .lead {
+    font-size: 1.86vw;
+    margin-bottom: 10vw;
+}
+
+.input-group {
+    border: solid 1vw #ffffff;
+}
+
+.section_5_continer_ input {
+    border: none;
+    font-size: 1vw;
+}
+
+.input-group .btn {
+    border-radius: 0;
+    padding: 1vw 4vw;
+    font-size: 1.6vw;
+}
+
+.input-group .fa-envelope {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+
+/* <!-- /////////////////////// footer ///////////////////////// --> */
+
+.footer_container_ {
+    width: 90%;
+    margin: 0 auto;
+    padding: 2vw 0;
+}
+
+.footer img {
+    max-width: 100px; 
+}
+
+.footer .social-icons a {
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.footer h5 {
+    font-size: 2vw;
+}
+
+.footer p, .footer ul, .footer a {
+    font-size: 1.6vw;
+    color: #ccc;
+}
+
+.footer a {
+    line-height: 5vw;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+.footer .social-icons a {
+    color: #ccc;
+    margin-right: 1vw;
+    font-size: 2.5vw;
+}
+
+.footer .social-icons a:hover {
+    color: #fff;
+}
+
+.footer ul {
+    padding-left: 0;
+}
+
+.footer ul li {
+    list-style: none;
+}
+
+.footer ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
